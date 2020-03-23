@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="Apple.js"></script>
+<script src="Human.js"></script>
+<script>
+    let Adam = new Human("Adam", true, 100);
+    let Eva = new Human("Eva", false, 50);
+    let apple = new Apple();
+
+    while (apple.weight > 0){
+        Adam.eatApple(apple);
+        Eva.eatApple(apple);
+    }
+</script>
+</body>
+</html>
